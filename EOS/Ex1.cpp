@@ -3,6 +3,7 @@
     a) Create address book. b) View address book. c) Insert a record. d) Delete a record. e)
     Modify a record. f) Exit
 */
+
 #include<iostream>
 #include<stdlib.h>
 using namespace std;
@@ -15,7 +16,7 @@ class AddressBook
  public:
  	int Insert(AddressBook *p,int n)
 	{
-	 cout<<"Enter Sr No: ";
+	cout<<"Enter Sr No: ";
 	cin>>p[n].Sr_No;
 	cout<<"Enter Name: ";
 	cin>>p[n].name;
@@ -146,4 +147,4 @@ int main()
     }
   }
 
- }
+}
